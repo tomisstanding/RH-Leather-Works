@@ -8,19 +8,36 @@
   <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js">
   </head>
   <body>
 
     <nav>
       <ul id="nav">
         <img id="nav-logo" src="images/logo.jpg" alt=""/>
-        <li><a href="#">HOME</a></li>
-        <li><a href="mailto:rhleatherworks@gmail.com?Subject=Re:%20Contact" target="_blank">CONTACT</a></li>
       </ul>
     </nav>
 
-    <img id="header-img" src="images/IMG_32621.jpg" alt=""/>
+    <!-- sticky nav-->
+    <div class="bg-cover" class="none"></div>
+      <a class="hamburger-shell">
+        <div class="hamb top"></div>
+          <div class="hamb middle"></div>
+        <div class="menu-name">MENU</div>
+
+      <ul id="menu">
+          <a href="#"> <li>Home</li></a>
+          <a href="#"> <li>Portfolio</li></a>
+          <a href="#"> <li>About Us</li></a>
+          <a href="#"> <li>Locations</li></a>
+          <a href="#"> <li>Contact</li></a>
+      </ul>
+      </a>
+    <div class="header"> </div>
+
+    <!-- end -->
+
+    <img id="header-img" src="images/IMG_33251.jpg" alt=""/>
 
     <main>
       <section>
@@ -31,13 +48,13 @@
 
       <section class="container">
         <div class="col">
-          <a href="blush_collection.html"><img class="post-image" src="../images/needles.jpg" alt=""></a>
+          <a href="blush_collection.html"><img class="post-image" src="images/IMG_32651.jpg" alt=""></a>
           <h5>Blush Collection</h5>
           <h2>More than just a music festival</h2>
             <p>Lorem ipsum dolor sit amet, his elit evertitur in, an posse omittam mel, dicit option quo no. Vis odio habeo simul id. Rebum voluptatibus an pri, sumo nominavi offendit no ius. At viris doming nominavi per, usu no prompta percipit necessitatibus, vim ridens aliquam tacimates ne.</p>
         </div>
         <div class="col">
-          <a href="bridal.html"><img class="post-image" src="../images/dressrack.jpg" alt=""></a>
+          <a href="bridal.html"><img class="post-image" src="images/IMG_32641.jpg" alt=""></a>
           <h5>Bridal</h5>
           <h2>Life tastes better with coffee</h2>
             <p>Lorem ipsum dolor sit amet, his elit evertitur in, an posse omittam mel, dicit option quo no. Vis odio habeo simul id. Rebum voluptatibus an pri, sumo nominavi offendit no ius. At viris doming nominavi per, usu no prompta percipit necessitatibus, vim ridens aliquam tacimates ne.</p>
@@ -46,13 +63,13 @@
 
       <section class="container">
         <div class="col">
-          <a href="active_wear.html"><img class="post-image" src="../images/activewear.jpg" alt=""></a>
+          <a href="active_wear.html"><img class="post-image" src="images/IMG_32661.jpg" alt=""></a>
           <h5>Activewear</h5>
           <h2>American Dream</h2>
             <p>Lorem ipsum dolor sit amet, his elit evertitur in, an posse omittam mel, dicit option quo no. Vis odio habeo simul id. Rebum voluptatibus an pri, sumo nominavi offendit no ius. At viris doming nominavi per, usu no prompta percipit necessitatibus, vim ridens aliquam tacimates ne.</p>
         </div>
         <div class="col">
-          <img class="post-image" src="../images/sewmachine.jpg" alt="">
+          <img class="post-image" src="images/IMG_32671.jpg" alt="">
           <h5>PHOTODIARY</h5>
           <h2>A day exploring the Alps</h2>
             <p>Lorem ipsum dolor sit amet, his elit evertitur in, an posse omittam mel, dicit option quo no. Vis odio habeo simul id. Rebum voluptatibus an pri, sumo nominavi offendit no ius. At viris doming nominavi per, usu no prompta percipit necessitatibus, vim ridens aliquam tacimates ne.</p>
@@ -61,13 +78,13 @@
 
       <section class="container">
         <div class="col">
-          <img class="post-image" src="../images/thread.jpg" alt="">
+          <img class="post-image" src="images/IMG_32771.jpg" alt="">
           <h5>LIFESTYLE</h5>
           <h2>Top 10 songs for running</h2>
             <p>Lorem ipsum dolor sit amet, his elit evertitur in, an posse omittam mel, dicit option quo no. Vis odio habeo simul id. Rebum voluptatibus an pri, sumo nominavi offendit no ius. At viris doming nominavi per, usu no prompta percipit necessitatibus, vim ridens aliquam tacimates ne.</p>
         </div>
         <div class="col">
-          <img class="post-image" src="../images/clothingracks.jpg" alt="">
+          <img class="post-image" src="images/IMG_32781.jpg" alt="">
           <h5>LIFESTYLE</h5>
           <h2>Cold Winter Days</h2>
             <p>Lorem ipsum dolor sit amet, his elit evertitur in, an posse omittam mel, dicit option quo no. Vis odio habeo simul id. Rebum voluptatibus an pri, sumo nominavi offendit no ius. At viris doming nominavi per, usu no prompta percipit necessitatibus, vim ridens aliquam tacimates ne.</p>
@@ -85,13 +102,11 @@
     <ul id="social">
       <li class="footer-item">Follow</li>
       <li class="footer-item">
-        <a href="https://www.instagram.com/pensandneedlesco/" target="_blank">
-          <img src="../images/instagram.png" alt="Instagram"></li>
+        <a href="https://www.instagram.com/rhleatherworks/" target="_blank">
+          <img src="images/instagram.png" alt="Instagram"></li>
         </a>
     </ul>
   </footer>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.js"></script>
-  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-  <script src="script.js" type="text/javascript" charset="utf-8"></script>
   <script type="text/javascript" src="script.js"></script>
 </html>
