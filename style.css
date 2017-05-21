@@ -108,6 +108,8 @@ li {
 
 #nav-logo {
   height: 200px;
+  display: block;
+  margin: -75px -88px -120px;
 }
 
 #newsletter {
