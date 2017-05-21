@@ -10,21 +10,12 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: black;
   z-index: 0;
   transition: all 350ms ease;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
-
-.prompt {
-  position: fixed;
-  width: 100%;
-  text-align: center;
-  line-height: 114px;
-  font-family: Georgia;
-  color: #666;
 }
 
 .reveal {
@@ -47,8 +38,8 @@
 
 .top, .middle{
   position: absolute;
-  width: 62px;
-  height: 10px;
+  width: 55px;
+  height: 7px;
   background-color: black;
   transition: all 350ms ease-in-out;
   top: 20px;
@@ -66,7 +57,7 @@
   display: none;
   margin: 120px 30px;
   text-decoration: none;
-  font-family: Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 100;
   font-size: 20px;
   text-transform: uppercase;
@@ -80,14 +71,14 @@
   text-decoration: none!important;
   padding-bottom: 10px;
   margin-bottom: 12px;
-  border-bottom: 1px solid black;
   list-style: none;
   color: #555;
   transition: all 150ms ease;
+  display: block;
 }
 
 #menu a li:hover {
-  color: #00abff;
+  color: red;
   padding-right: 3px;
 }
 
@@ -127,7 +118,7 @@
 }
 
 .menu-name {
-  font-family: Verdana;
+  font-family: 'Playfair Display', serif;
   font-weight: 900;
   color: black;
   font-size: 19.5px;
@@ -143,42 +134,6 @@
   color: red;
 }
 
-.responsive-box {
-  background-color: #ddd;
-  margin: 2%;
-  float: left;
-}
-
-.box-1 {
-  width: 96%;
-  height: 300px;
-}
-
-.box-2, .box-3, .box-4 {
-  width: 29.333%;
-  height: 140px;
-}
-
-.box-5 {
-  width: 62.666%;
-  height: 492px;
-}
-
-.par-1, .par-2, .par-3 {
-  width: 70%;
-  margin: 1% 2%;
-  background-color: #888;
-  height: 16px;
-  float: left;
-}
-
-.par-2 {
-  width: 56%;
-}
-
-.par-3 {
-  width: 64%;
-}
 /*end nav*/
 
 
@@ -225,6 +180,10 @@ footer {
   height: 18px;
   width: 18px;
   margin: -3px;
+}
+
+#header-container {
+  display: flex;
 }
 
 h1 {
@@ -276,8 +235,13 @@ li {
 }
 
 #nav-logo {
-  height: 500px;
+  flex: 1;
+  height: 300px;
+  max-width: 400px;
+  padding-top: 100px;
+  padding-bottom: 200px;
   margin: 0 auto;
+  margin-bottom: 100px;
   display: block;
 }
 
@@ -348,7 +312,6 @@ ul#nav {
 
   #nav-logo {
     height: 300px;
-    margin: -220 auto;
   }
 
 }
