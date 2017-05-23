@@ -17,3 +17,4 @@ $(document).ready(function(){
     $('.bg-cover').toggleClass('reveal');
   })
 });
+

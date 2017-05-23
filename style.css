@@ -78,7 +78,7 @@
 }
 
 #menu a li:hover {
-  color: red;
+  color: #FFF;
   padding-right: 3px;
 }
 
@@ -93,7 +93,7 @@
   transform: rotate(225deg);
   -webkit-transform: rotate(225deg);
   top: 30px;
-  background-color: red;
+  background-color: turquoise;
   height: 2px;
 }
 
@@ -131,7 +131,7 @@
 
 .bump {
   top: 64px;
-  color: red;
+  color: turquoise;
 }
 
 /*end nav*/
@@ -139,13 +139,15 @@
 
 .col {
   flex: 1;
-  padding: 10px;
-  margin: 10px;
+  padding: 10px 0px 0px 0px;
+  margin: 50px 0px 0px 25%;
+  word-wrap: break-word;
 }
 
 .container {
   display: flex;
   margin: 0 auto;
+  width: 25em;
 }
 
 #email {
@@ -266,8 +268,17 @@ p {
 }
 
 .post-image {
-  width: 100%;
-  margin: 0;
+  max-width: 400px;
+  padding-top: 10px;
+  max-height: 400px;
+  margin: 0 auto;
+}
+
+.post-image2 {
+  max-width: 400px;
+  padding-top: 10px;
+  max-height: 400px;
+  margin: 0 auto;
 }
 
 section {
@@ -294,16 +305,22 @@ ul#nav {
 
 @media screen and (max-width: 768px) {
 
+  a, #nav{
+    padding-left: 0;
+  }
+
   h1 {
     padding: 5px 0 0 50px;
   }
 
-  .container {
-    display: block;
+  .col {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
   }
 
-  a, #nav{
-    padding-left: 0;
+  .container {
+    display: block;
   }
 
   .name {
@@ -314,4 +331,9 @@ ul#nav {
     height: 300px;
   }
 
+  .post-image {
+    width: 100%;
+    padding-top: 10px;
+    margin: 0 auto;
+  }
 }
