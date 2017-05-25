@@ -162,9 +162,9 @@ $(document).ready(function(){
     "styles": {
       "product": {
         "@media (min-width: 601px)": {
-          "max-width": "100%",
-          "margin-left": "0px",
-          "margin-bottom": "0px"
+          // "max-width": "100%",
+          // "margin-left": "0px",
+          // "margin-bottom": "0px"
         }
       },
       "button": {
@@ -172,7 +172,7 @@ $(document).ready(function(){
         "color": "#797979",
         "font-family": "Playfair Display, serif",
         "padding-left": "25px",
-        "padding-right": "25px",
+        // "padding-right": "25px",
         ":hover": {
           "background-color": "#cacaca",
           "color": "#797979"
@@ -257,7 +257,7 @@ $(document).ready(function(){
     "styles": {
       "products": {
         "@media (min-width: 601px)": {
-          "margin-left": "-20px"
+          // "margin-left": "-20px"
         }
       }
     }
