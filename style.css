@@ -33,7 +33,7 @@
   overflow: auto;
   left: calc(100% - 100px);
   top: 20px;
-  z-index: 2;
+  z-index: 3;
 }
 
 .top, .middle{
@@ -43,19 +43,6 @@
   background-color: black;
   transition: all 350ms ease-in-out;
   top: 20px;
-}
-
-.middle:hover {
-  background-color: white;
-  transition: initial;
-}
-.top:hover {
-  background-color: white;
-  transition: initial;
-}
-.menu-name:hover {
-  color: white;
-  transition: initial;
 }
 
 .middle {
@@ -78,7 +65,7 @@
   padding: 24px;
   width: 200px;
   text-align: right;
-  z-index: 2;
+  z-index: 3;
 }
 
 #menu a li {
@@ -150,6 +137,9 @@
 
 /*end nav*/
 
+a {
+  text-decoration: none;
+}
 
 .col {
   flex: 1;
@@ -201,12 +191,13 @@ footer {
 .footer-item {
   padding-right: 10px;
   color: gray;
+  text-decoration: none;
 }
 
 .footer-item img {
-  height: 18px;
-  width: 18px;
-  margin: -3px;
+  height: 25px;
+  width: 25px;
+  margin: 5px;
 }
 
 #header-container {
@@ -266,7 +257,7 @@ li {
   max-width: 600px;
   padding-top: 60px;
   padding-bottom: 0px;
-  margin: 0 auto;
+  margin: 0px 350px;
   margin-bottom: 0px;
   display: block;
   z-index: 2;
@@ -347,6 +338,7 @@ ul#nav {
     height: 275px;
     width: auto;
     padding-top: 100px;
+    margin: 0 auto;
   }
 
   .post-image {
@@ -408,10 +400,10 @@ ul#nav {
 
   #nav-logo {
     flex: 1;
-    height: 450px;
-    max-width: 600px;
+    height: 200px;
+    max-width: 275px;
     padding-bottom: 0px;
-    margin: 0 auto;
+    margin: 0px 25px;
     margin-bottom: 0px;
     display: block;
     z-index: 2;
@@ -421,5 +413,11 @@ ul#nav {
     width: 100%;
     padding-top: 10px;
     margin: 0 auto;
+  }
+
+  #social {
+    flex: 1;
+    padding: 25px 100px 0 0;
+    text-align: right;
   }
 }
