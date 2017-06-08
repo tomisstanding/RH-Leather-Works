@@ -197,6 +197,13 @@ blockquote:after {
 
 #contact-logo {
   border-radius: 50%;
+  margin: 0px 480px;
+}
+
+.contact {
+  text-align: center;
+  color: black;
+  text-decoration: underline;
 }
 
 #email {
@@ -223,7 +230,7 @@ footer {
 }
 
 .footer-item {
-  padding-right: 10px;
+  padding-right: 5px;
   color: gray;
   text-decoration: none;
 }
@@ -231,6 +238,12 @@ footer {
 .footer-item img {
   height: 25px;
   width: 25px;
+  margin: 5px;
+}
+
+.footer-item-email img {
+  width: 32px;
+  height: 25px;
   margin: 5px;
 }
 
@@ -291,7 +304,7 @@ li {
   max-width: 600px;
   padding-top: 60px;
   padding-bottom: 0px;
-  margin: 0px 350px;
+  margin: auto;
   margin-bottom: 0px;
   display: block;
   z-index: 2;
@@ -375,17 +388,17 @@ ul#nav {
   }
 
   blockquote:before {
-      top: -10px;
-      left: 0;
-      content: "\201C";
-      color: red;
+    top: -10px;
+    left: 0;
+    content: "\201C";
+    color: black;
   }
 
   blockquote:after {
-      top: 190px;
-      right: 0;
-      content: "\201D";
-      color: turquoise;
+    top: 190px;
+    right: 0;
+    content: "\201D";
+    color: black;
   }
 
   h1 {
@@ -403,15 +416,26 @@ ul#nav {
     width: 20em;
   }
 
+  #contact-logo {
+    border-radius: 50%;
+    margin: 0px 70px;
+  }
+
   .name {
     margin-left: -12px;
   }
 
   #nav-logo {
-    height: 275px;
-    width: auto;
+    height: 255px;
+    max-width: 320px;
     padding-top: 100px;
-    margin: 0 auto;
+    margin: auto;
+  }
+
+  #social {
+    flex: 1;
+    padding: 35px 120px 0 0;
+    text-align-last: right;
   }
 
   .post-image {
@@ -444,17 +468,17 @@ ul#nav {
   }
 
   blockquote:before {
-      top: -10px;
-      left: 0;
-      content: "\201C";
-      color: red;
+    top: -10px;
+    left: 0;
+    content: "\201C";
+    color: black;
   }
 
   blockquote:after {
-      top: 190px;
-      right: 0;
-      content: "\201D";
-      color: turquoise;
+    top: 190px;
+    right: 0;
+    content: "\201D";
+    color: black;
   }
 
   .col {
@@ -466,6 +490,11 @@ ul#nav {
   .container {
     display: block;
     width: 20em;
+  }
+
+  #contact-logo {
+    border-radius: 50%;
+    margin: 0px 70px;
   }
 
   h1 {
@@ -507,7 +536,7 @@ ul#nav {
     height: 200px;
     max-width: 275px;
     padding-bottom: 0px;
-    margin: 0px 25px;
+    margin: auto;
     margin-bottom: 0px;
     display: block;
     z-index: 2;
@@ -521,7 +550,7 @@ ul#nav {
 
   #social {
     flex: 1;
-    padding: 25px 100px 0 0;
+    padding: 30px 80px 0 0;
     text-align: right;
   }
 }
