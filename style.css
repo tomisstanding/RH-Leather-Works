@@ -51,7 +51,7 @@
 
 #menu {
   position: fixed;
-  left: calc(100% - 292px);
+  left: calc(100% - 315px);
   top: 10px;
   color: black;
   display: none;
@@ -523,9 +523,13 @@ ul#nav {
     width: 70px;
     height: 100px;
     overflow: auto;
-    left: calc(100% - 85px);
+    left: calc(100% - 55px);
     top: 0px;
     z-index: 2;
+  }
+
+  #menu {
+    left: calc(100% - 270px);
   }
 
   .name {
