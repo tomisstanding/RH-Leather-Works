@@ -302,8 +302,9 @@
         <div class="text-container">
         </div>
         <!-- start wallet -->
-        <div id='product-component-89a61e2bb4e'></div>
+        <div id='product-component-82e0ab7f1db'></div>
           <script type="text/javascript">
+          /*<![CDATA[*/
           (function () {
             var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
             if (window.ShopifyBuy) {
@@ -333,14 +334,19 @@
 
               ShopifyBuy.UI.onReady(client).then(function (ui) {
                 ui.createComponent('product', {
-                  id: [10961194052],
-                  node: document.getElementById('product-component-89a61e2bb4e'),
+                  id: [11155591940],
+                  node: document.getElementById('product-component-82e0ab7f1db'),
                   moneyFormat: '%24%7B%7Bamount%7D%7D',
                   options: {
             "product": {
               "layout": "horizontal",
               "variantId": "all",
               "width": "100%",
+              "viewData": {
+              },
+              "templates": {
+                "description": "<div class=\"{{data.classes.product.description}}\" data-element=\"product.description\">{{{data.sanitizeDescription}}}</div>"
+              },
               "contents": {
                 "img": false,
                 "imgWithCarousel": true,
@@ -552,6 +558,7 @@
               });
             }
           })();
+          /*]]>*/
           </script>
         <!-- end -->
       </div>
